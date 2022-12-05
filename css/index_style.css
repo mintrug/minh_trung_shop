@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+}
+
+.box {
+    background-color: cadetblue;
+    height: 1000px;
+    margin-top: 110px;
+}
+
+/* .box::before {
+    content: "";
+    display: block;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+} */
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
